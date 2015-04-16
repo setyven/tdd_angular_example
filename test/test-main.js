@@ -31,6 +31,8 @@ require.config({
 
 		'log': './logging/console-logger',
 
+		'test': '../../test',
+
 		'text': '../lib/bower/requirejs-text/text',
 
 		'angular.mocks': '../lib/bower/angular-mocks/angular-mocks',

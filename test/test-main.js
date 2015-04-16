@@ -20,7 +20,7 @@ require.config({
 	// Karma serves files under /base, which is the basePath from your config file
 	baseUrl: '/base/app/scripts',
 
-	packages: ['common', 'calculator', 'logger'],
+	packages: ['calculator', 'logger'],
 
 	paths: {
 		'angular': '../lib/bower/angular/angular',
@@ -32,8 +32,6 @@ require.config({
 		'log': './logging/console-logger',
 
 		'text': '../lib/bower/requirejs-text/text',
-
-		'partials': '../partials',
 
 		'test': '../../test',
 
